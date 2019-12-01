@@ -133,6 +133,21 @@
 
             <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
 
+				<div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="companies/kunsu/God Of War.php">
+                        <img src="images/kunsu/God Of War.jpg" alt="PS4 Games">
+                        <div class="overlay"></div>                       
+                        <div class="portfolio-item-meta">
+          					    <h5>PS4 Games</h5>
+          					</div>                         
+                     </a>
+
+                  </div>
+          		</div> <!-- /item -->
+
+
           	   <div class="bgrid item">
                   <div class="item-wrap">
 
