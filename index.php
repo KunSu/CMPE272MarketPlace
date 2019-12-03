@@ -303,8 +303,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/God Of War.php">
-                                <img src="images/tyang/God Of War.jpg" alt="God Of War">
+                            <a href="companies/tyang/ios.php">
+                                <img src="images/tyang/ios.jpg" alt="ios">
                                 <div class="overlay"></div>
                                 <div class="portfolio-item-meta">
                                     <h5>IOS DEVELOPMENT</h5>
@@ -316,8 +316,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Monster Hunter World.php">
-                                <img src="images/kunsu/Monster Hunter World.jpg" alt="Monster Hunter World">
+                            <a href="companies/tyang/onlineCouching.php">
+                                <img src="images/tyang/onlineCouching.jpg" alt="onlineCouching">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>ONLINE COUCHING</h5>
@@ -331,9 +331,9 @@
 
                     <div class="bgrid stack item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Tom Clancy's The Division 2.php">
-                                <img src="images/kunsu/Tom Clancy's The Division 2.jpg"
-                                    alt="Tom Clancy's The Division 2">
+                            <a href="companies/tyang/webdesign.php">
+                                <img src="images/tyang/webdesign.jpeg"
+                                    alt="webdesign">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB DESIGN</h5>
@@ -346,8 +346,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/The Witcher 3.php">
-                                <img src="images/kunsu/The Witcher 3.jpg" alt="The Witcher 3">
+                            <a href="companies/tyang/ui.php">
+                                <img src="images/tyang/ui.jpg" alt="ui">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>UI DEVELOPMENT</h5>
@@ -360,8 +360,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Overcooked! 2.php">
-                                <img src="images/kunsu/Overcooked! 2.jpg" alt="Overcooked! 2">
+                            <a href="companies/tyang/android.php">
+                                <img src="images/tyang/android.jpg" alt="android">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>ANDROID DEVELOPMENT</h5>
@@ -374,8 +374,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Red Dead Redemption 2.php">
-                                <img src="images/kunsu/Red Dead Redemption 2.jpg" alt="Red Dead Redemption 2">
+                            <a href="companies/tyang/search.php">
+                                <img src="images/tyang/search.png" alt="search">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB SEARCH</h5>
@@ -388,8 +388,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Grand Theft Auto V.php">
-                                <img src="images/kunsu/Grand Theft Auto V.jpg" alt="Grand Theft Auto V">
+                            <a href="companies/tyang/webDevelopment.php">
+                                <img src="images/tyang/webDevelopment.jpg" alt="webDevelopment">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB DEVELOPMENT</h5>
@@ -402,8 +402,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/World War Z.php">
-                                <img src="images/kunsu/World War Z.jpg" alt="World War Z">
+                            <a href="companies/tyang/machineLearning.php">
+                                <img src="images/tyang/machineLearning.jpeg" alt="machineLearning">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>MACHINE LEARNING DEVELOPMENT</h5>
@@ -416,8 +416,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Final Fantasy XV.php">
-                                <img src="images/kunsu/Final Fantasy XV.jpg" alt="Final Fantasy XV">
+                            <a href="companies/tyang/webMonitor.php">
+                                <img src="images/tyang/webMonitor.jpg" alt="webMonitor">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB MONITOR</h5>
@@ -430,8 +430,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Nier.php">
-                                <img src="images/kunsu/Nier.jpg" alt="Nier">
+                            <a href="companies/tyang/backend.php">
+                                <img src="images/tyang/backend.png" alt="backend">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>BACKEND DEVELOPMENT</h5>
