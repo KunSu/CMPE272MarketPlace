@@ -29,8 +29,8 @@
 
 			<div class="twelve columns">
 
-				<h1>Kun Su<span></span></h1>
-				<p>Software Engineer | Puzzle Solver | Game Maker</p>
+				<h1>Junyan Wang<span></span></h1>
+				<p>Software Engineer | Gourmet | Traveller</p>
 
 			</div>			    
 
