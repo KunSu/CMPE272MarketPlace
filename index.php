@@ -331,9 +331,9 @@
 
                     <div class="bgrid stack item">
                         <div class="item-wrap">
-                            <a href="companies/tyang/webdesign.php">
-                                <img src="images/tyang/webdesign.jpeg"
-                                    alt="webdesign">
+                            <a href="companies/tyang/webDesign.php">
+                                <img src="images/tyang/webDesign.jpg"
+                                    alt="webDesign">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB DESIGN</h5>
@@ -374,8 +374,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/tyang/search.php">
-                                <img src="images/tyang/search.png" alt="search">
+                            <a href="companies/tyang/webSearch.php">
+                                <img src="images/tyang/webSearch.jpg" alt="webSearch">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>WEB SEARCH</h5>
@@ -403,7 +403,7 @@
                     <div class="bgrid item">
                         <div class="item-wrap">
                             <a href="companies/tyang/machineLearning.php">
-                                <img src="images/tyang/machineLearning.jpeg" alt="machineLearning">
+                                <img src="images/tyang/machineLearning.jpg" alt="machineLearning">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>MACHINE LEARNING DEVELOPMENT</h5>
@@ -431,7 +431,7 @@
                     <div class="bgrid item">
                         <div class="item-wrap">
                             <a href="companies/tyang/backend.php">
-                                <img src="images/tyang/backend.png" alt="backend">
+                                <img src="images/tyang/backend.jpg" alt="backend">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>BACKEND DEVELOPMENT</h5>
