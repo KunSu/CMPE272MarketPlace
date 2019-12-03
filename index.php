@@ -273,6 +273,136 @@
                             </a>
                         </div>
                     </div> <!-- item end -->
+                    
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Slinky Dog Dash.php">
+                                <img src="images/junyanwang/Slinky Dog Dash.jpg" alt="Slinky Dog Dash">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Slinky Dog Dash</h5>
+                                    <p>No.1</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/A Frozen SingAlong Celebration.php">
+                                <img src="images/junyanwang/A Frozen SingAlong Celebration.jpg" alt="A Frozen SingAlong Celebration">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>A Frozen SingAlong Celebration</h5>
+                                    <p>No.2</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Star Wars Character Experience.php">
+                                <img src="images/junyanwang/Star Wars Character Experience.jpg" alt="Star Wars Character Experience">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Star Wars Character Experience</h5>
+                                    <p>No.3</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Meet Mike and Sulley.php">
+                                <img src="images/junyanwang/Meet Mike and Sulley.jpg" alt="Meet Mike and Sulley">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Meet Mike and Sulley</h5>
+                                    <p>No.4</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Tree of Life Awakenings.php">
+                                <img src="images/junyanwang/Tree of Life Awakenings.jpg" alt="Tree of Life Awakenings">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Tree of Life Awakenings</h5>
+                                    <p>No.5</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+                    
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Meet the Toys in Toy Story Land.php">
+                                <img src="images/junyanwang/Meet the Toys in Toy Story Land.jpg" alt="Meet the Toys in Toy Story Land">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Meet the Toys in Toy Story Land</h5>
+                                    <p>No.6</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Junior Dance Party.php">
+                                <img src="images/junyanwang/Junior Dance Party.jpg" alt="Meet the Toys in Toy Story Land">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Junior Dance Party</h5>
+                                    <p>No.7</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->                                        
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Beauty and the Beast.php">
+                                <img src="images/junyanwang/Beauty and the Beast.jpg" alt="Beauty and the Beast">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Beauty and the Beast</h5>
+                                    <p>No.8</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->  
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/BB-8 Astromech on Duty.php">
+                                <img src="images/junyanwang/BB-8 Astromech on Duty.jpg" alt="BB-8 Astromech on Duty">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>BB-8 Astromech on Duty</h5>
+                                    <p>No.9</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item --> 
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/junyanwang/Celebrity Spotlight.php">
+                                <img src="images/junyanwang/Celebrity Spotlight.jpg" alt="Celebrity Spotlight">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>Celebrity Spotlight</h5>
+                                    <p>No.10</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
 
                 </div> <!-- /portfolio-wrapper -->
 
