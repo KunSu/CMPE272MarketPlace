@@ -273,8 +273,39 @@
                             </a>
                         </div>
                     </div> <!-- item end -->
-                    
-                    <div class="bgrid item">
+                </div> <!-- /portfolio-wrapper -->
+
+            </div> <!-- /twelve -->
+        </div> <!-- /row -->
+    </section> <!-- /Portfolio -->
+    <!-- The end of Kun's Company -->
+
+    <!-- Lijuan's Company -->
+    <!-- TODO: #5 10 product pages per persoin -->
+    <!-- The end of Lijuan's Company -->
+
+    <!-- Taylor's Company -->
+    <!-- TODO: #5 10 product pages per persoin -->
+    <!-- The end of Taylor's Company -->
+
+    <!-- Junyan's Company -->
+    <!-- TODO: #5 10 product pages per persoin -->
+    <section id="portfolio">
+
+        <div class="row section-head">
+            <div class="twelve columns about">
+                <h1>Top 10 Popular Services<span>.</span></h1>
+                <p>Below is the list of Kiddos Kingdom Top 10 Popular Services in December 2019.</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="row items">
+            <div class="twelve columns">
+
+                <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
+
+                <div class="bgrid item">
                         <div class="item-wrap">
                             <a href="companies/junyanwang/Slinky Dog Dash.php">
                                 <img src="images/junyanwang/Slinky Dog Dash.jpg" alt="Slinky Dog Dash">
@@ -402,26 +433,14 @@
                                 </div>
                             </a>
                         </div>
-                    </div> <!-- /item -->
-
+                    </div> <!-- item end -->
                 </div> <!-- /portfolio-wrapper -->
 
             </div> <!-- /twelve -->
         </div> <!-- /row -->
     </section> <!-- /Portfolio -->
-    <!-- The end of Kun's Company -->
-
-    <!-- Lijuan's Company -->
-    <!-- TODO: #5 10 product pages per persoin -->
-    <!-- The end of Lijuan's Company -->
-
-    <!-- Taylor's Company -->
-    <!-- TODO: #5 10 product pages per persoin -->
-    <!-- The end of Taylor's Company -->
-
-    <!-- Junyan's Company -->
-    <!-- TODO: #5 10 product pages per persoin -->
     <!-- The end of Junyan's Company -->
+
 
     <!-- Zijian's Company -->
     <!-- TODO: #5 10 product pages per persoin -->
