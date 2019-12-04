@@ -519,7 +519,7 @@
                                 <img src="images/zijian/user_interface_design.png" alt="user_interface_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>user_interface_design</h5>
+                                        <h5>User Interface Design</h5>
                                         <p>No.4</p>
                                     </div>
                                 </div>
@@ -529,11 +529,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Overcooked! 2.php">
-                                <img src="images/kunsu/Overcooked! 2.jpg" alt="Overcooked! 2">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Back_end_Management.php">
+                                <img src="images/zijian/backend_management.png" alt="backend_management">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Overcooked! 2</h5>
+                                        <h5>Backend Management 2</h5>
                                         <p>No.5</p>
                                     </div>
                                 </div>
@@ -543,11 +543,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Red Dead Redemption 2.php">
-                                <img src="images/kunsu/Red Dead Redemption 2.jpg" alt="Red Dead Redemption 2">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Ad_services.php">
+                                <img src="images/zijian/ad_services.jpg" alt="ad_services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Red Dead Redemption 2</h5>
+                                        <h5>Ad Services</h5>
                                         <p>No.6</p>
                                     </div>
                                 </div>
@@ -557,11 +557,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Grand Theft Auto V.php">
-                                <img src="images/kunsu/Grand Theft Auto V.jpg" alt="Grand Theft Auto V">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Tracking_Cookies.php">
+                                <img src="images/zijian/tracking_cookies.jpg" alt="tracking_cookies">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Grand Theft Auto V</h5>
+                                        <h5>Tracking Cookies</h5>
                                         <p>No.7</p>
                                     </div>
                                 </div>
@@ -571,11 +571,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/World War Z.php">
-                                <img src="images/kunsu/World War Z.jpg" alt="World War Z">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Payment_System_Design.php">
+                                <img src="images/zijian/payment_system_design.jpg" alt="Payment_System_Design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>World War Z</h5>
+                                        <h5>Payment System Design</h5>
                                         <p>No.8</p>
                                     </div>
                                 </div>
@@ -585,11 +585,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Final Fantasy XV.php">
-                                <img src="images/kunsu/Final Fantasy XV.jpg" alt="Final Fantasy XV">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Security_Services.php">
+                                <img src="images/zijian/security_system.jpg" alt="Security_Services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Final Fantasy XV</h5>
+                                        <h5>Security Services</h5>
                                         <p>No.9</p>
                                     </div>
                                 </div>
@@ -599,11 +599,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/kunsu/Nier.php">
-                                <img src="images/kunsu/Nier.jpg" alt="Nier">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Word_Press.php">
+                                <img src="images/zijian/word_press.png" alt="word_press">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Nier</h5>
+                                        <h5>Word Press</h5>
                                         <p>No.10</p>
                                     </div>
                                 </div>
