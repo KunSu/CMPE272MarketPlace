@@ -455,6 +455,167 @@
 
     <!-- Zijian's Company -->
     <!-- TODO: #5 10 product pages per persoin -->
+    <section id="portfolio">
+
+        <div class="row section-head">
+            <div class="twelve columns about">
+                <h1>Top 10 Web Services of All Time<span>.</span></h1>
+                <p>Below is the list of Top 10 Web Services of All Time.</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="row items">
+            <div class="twelve columns">
+
+                <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/User_Management_System.php">
+                                <img src="images/zijian/user_management_system.png" alt="user_management_system">
+                                <div class="overlay"></div>
+                                <div class="portfolio-item-meta">
+                                    <h5>User Management System</h5>
+                                    <p>No.1</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/MySQL_database_design.php">
+                                <img src="images/zijian/mysql_database_design.jpg" alt="mysql_database_design">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>MySQL Database Design</h5>
+                                        <p>No.2</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid stack item">
+                        <div class="item-wrap">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Front-end_Design.php">
+                                <img src="images/zijian/frontend_design.png"
+                                    alt="frontend_design">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Front-end Design</h5>
+                                        <p>No.3</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/User_Interface_Design.php">
+                                <img src="images/zijian/user_interface_design.png" alt="user_interface_design">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>user_interface_design</h5>
+                                        <p>No.4</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/Overcooked! 2.php">
+                                <img src="images/kunsu/Overcooked! 2.jpg" alt="Overcooked! 2">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Overcooked! 2</h5>
+                                        <p>No.5</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/Red Dead Redemption 2.php">
+                                <img src="images/kunsu/Red Dead Redemption 2.jpg" alt="Red Dead Redemption 2">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Red Dead Redemption 2</h5>
+                                        <p>No.6</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/Grand Theft Auto V.php">
+                                <img src="images/kunsu/Grand Theft Auto V.jpg" alt="Grand Theft Auto V">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Grand Theft Auto V</h5>
+                                        <p>No.7</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- /item -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/World War Z.php">
+                                <img src="images/kunsu/World War Z.jpg" alt="World War Z">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>World War Z</h5>
+                                        <p>No.8</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/Final Fantasy XV.php">
+                                <img src="images/kunsu/Final Fantasy XV.jpg" alt="Final Fantasy XV">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Final Fantasy XV</h5>
+                                        <p>No.9</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- item end -->
+
+                    <div class="bgrid item">
+                        <div class="item-wrap">
+                            <a href="companies/kunsu/Nier.php">
+                                <img src="images/kunsu/Nier.jpg" alt="Nier">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                        <h5>Nier</h5>
+                                        <p>No.10</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- item end -->
+
+                </div> <!-- /portfolio-wrapper -->
+
+            </div> <!-- /twelve -->
+        </div> <!-- /row -->
+    </section> <!-- /Portfolio -->
     <!-- The end of Zijian's Company -->
 
     <!-- Ru's Company -->
