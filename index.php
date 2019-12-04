@@ -472,8 +472,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/user_management_system.php">
-                                <img src="images/zijian/user_management_system.png" alt="user_management_system">
+                            <a href="companies/zijian/User Management System.php">
+                                <img src="images/zijian/User Management System.png" alt="user_management_system">
                                 <div class="overlay"></div>
                                 <div class="portfolio-item-meta">
                                     <h5>User Management System</h5>
@@ -485,8 +485,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/mysql_database_design.php">
-                                <img src="images/zijian/mysql_database_design.jpg" alt="mysql_database_design">
+                            <a href="companies/zijian/MySQL Database Design.php">
+                                <img src="images/zijian/MySQL Database Design.jpg" alt="mysql_database_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>MySQL Database Design</h5>
@@ -500,12 +500,12 @@
 
                     <div class="bgrid stack item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/frontend_design.php">
-                                <img src="images/zijian/frontend_design.png"
+                            <a href="companies/zijian/Frontend Design.php">
+                                <img src="images/zijian/Frontend Design.png"
                                     alt="frontend_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Front-end Design</h5>
+                                        <h5>Frontend Design</h5>
                                         <p>No.3</p>
                                     </div>
                                 </div>
@@ -515,8 +515,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/user_interface_design.php">
-                                <img src="images/zijian/user_interface_design.png" alt="user_interface_design">
+                            <a href="companies/zijian/User Interface Design.php">
+                                <img src="images/zijian/User Interface Design.png" alt="user_interface_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>User Interface Design</h5>
@@ -529,8 +529,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/backend_management.php">
-                                <img src="images/zijian/backend_management.png" alt="backend_management">
+                            <a href="companies/zijian/Backend Management.php">
+                                <img src="images/zijian/Backend Management.png" alt="backend_management">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Backend Management</h5>
@@ -543,8 +543,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/ad_services.php">
-                                <img src="images/zijian/ad_services.jpg" alt="ad_services">
+                            <a href="companies/zijian/Ad Services.php">
+                                <img src="images/zijian/Ad Services.jpg" alt="ad_services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Ad Services</h5>
@@ -557,8 +557,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/tracking_cookies.php">
-                                <img src="images/zijian/tracking_cookies.jpg" alt="tracking_cookies">
+                            <a href="companies/zijian/Tracking Cookies.php">
+                                <img src="images/zijian/Tracking Cookies.jpg" alt="tracking_cookies">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Tracking Cookies</h5>
@@ -571,8 +571,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/payment_system_design.php">
-                                <img src="images/zijian/payment_system_design.jpg" alt="Payment_System_Design">
+                            <a href="companies/zijian/Payment System Design.php">
+                                <img src="images/zijian/Payment System Design.jpg" alt="Payment_System_Design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Payment System Design</h5>
@@ -585,8 +585,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/security_system.php">
-                                <img src="images/zijian/security_system.jpg" alt="Security_Services">
+                            <a href="companies/zijian/Security System.php">
+                                <img src="images/zijian/Security System.jpg" alt="Security_Services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Security Services</h5>
@@ -599,8 +599,8 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/zijian/word_press.php">
-                                <img src="images/zijian/word_press.png" alt="word_press">
+                            <a href="companies/zijian/Word Press.php">
+                                <img src="images/zijian/Word Press.png" alt="word_press">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
                                         <h5>Word Press</h5>
