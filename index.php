@@ -472,7 +472,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/User_Management_System.php">
+                            <a href="companies/zijian/user_management_system.php">
                                 <img src="images/zijian/user_management_system.png" alt="user_management_system">
                                 <div class="overlay"></div>
                                 <div class="portfolio-item-meta">
@@ -485,7 +485,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/MySQL_database_design.php">
+                            <a href="companies/zijian/mysql_database_design.php">
                                 <img src="images/zijian/mysql_database_design.jpg" alt="mysql_database_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -500,7 +500,7 @@
 
                     <div class="bgrid stack item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Front-end_Design.php">
+                            <a href="companies/zijian/frontend_design.php">
                                 <img src="images/zijian/frontend_design.png"
                                     alt="frontend_design">
                                 <div class="overlay">
@@ -515,7 +515,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/User_Interface_Design.php">
+                            <a href="companies/zijian/user_interface_design.php">
                                 <img src="images/zijian/user_interface_design.png" alt="user_interface_design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -529,11 +529,11 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Back_end_Management.php">
+                            <a href="companies/zijian/backend_management.php">
                                 <img src="images/zijian/backend_management.png" alt="backend_management">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Backend Management 2</h5>
+                                        <h5>Backend Management</h5>
                                         <p>No.5</p>
                                     </div>
                                 </div>
@@ -543,7 +543,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Ad_services.php">
+                            <a href="companies/zijian/ad_services.php">
                                 <img src="images/zijian/ad_services.jpg" alt="ad_services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -557,7 +557,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Tracking_Cookies.php">
+                            <a href="companies/zijian/tracking_cookies.php">
                                 <img src="images/zijian/tracking_cookies.jpg" alt="tracking_cookies">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -571,7 +571,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Payment_System_Design.php">
+                            <a href="companies/zijian/payment_system_design.php">
                                 <img src="images/zijian/payment_system_design.jpg" alt="Payment_System_Design">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -585,7 +585,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Security_Services.php">
+                            <a href="companies/zijian/security_system.php">
                                 <img src="images/zijian/security_system.jpg" alt="Security_Services">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -599,7 +599,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="http://ec2-18-222-254-244.us-east-2.compute.amazonaws.com/Word_Press.php">
+                            <a href="companies/zijian/word_press.php">
                                 <img src="images/zijian/word_press.png" alt="word_press">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
