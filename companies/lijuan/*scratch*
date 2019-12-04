@@ -1,0 +1,1 @@
+Warning (emacs): PHP function descriptions not loaded. Try M-x php-extras-generate-eldoc

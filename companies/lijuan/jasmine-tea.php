@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <div>
-<img with="400" height="400" src="/pictures/10.jpg"/>
+<img with="400" height="400" src="<?php echo $path;?>images/lijuan/10.jpg">
 </div>
 <div>
 Jasmine tea (Chinese: 茉莉花茶; pinyin: mòlìhuā chá or Chinese: 香片; pinyin: xiāng piàn) is tea scented with the aroma of jasmine blossoms. Typically, jasmine tea has green tea as the tea base; however, white tea and black tea are also used. The resulting flavour of jasmine tea is subtly sweet and highly fragrant. It is the most famous scented tea in China.

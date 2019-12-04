@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <div>
-<img with="400" height="400" src="/pictures/7.jpg"/>
+<img with="400" height="400" src="<?php echo $path;?>images/lijuan/7.jpg">
 </div>
 <div>
 English breakfast tea or simply breakfast tea is a traditional blend of teas originating from Assam, Ceylon, and Kenya. It is one of the most popular blended teas, common in British and Irish tea culture.

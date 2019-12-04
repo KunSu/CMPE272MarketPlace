@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <div>
-<img with="400" height="400" src="/pictures/5.jpg"/>
+<img with="400" height="400" src="<?php echo $path;?>images/lijuan/5.jpg">
 </div>
 <div>
 The Chinese name of "mango pomelo sago" (楊枝甘露) comes from the concept of dropping manna from a willow branch which makes people feel refreshed when they taste it. It was also the secret tool of the Guanyin according to the traditional Chinese mythology Journey to the West.
