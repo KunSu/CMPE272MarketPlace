@@ -299,7 +299,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/bubble-tea.php">
+                            <a href="companies/lijuan/bubble tea.php">
                                 <img src="images/lijuan/6.jpg" alt="bubble tea">
                                 <div class="overlay"></div>
                                 <div class="portfolio-item-meta">
@@ -312,7 +312,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/dirty-tea.php">
+                            <a href="companies/lijuan/dirty tea.php">
                                 <img src="images/lijuan/4.png" alt="diryty-tea">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -327,7 +327,7 @@
 
                     <div class="bgrid stack item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/english-breakfast-tea.php">
+                            <a href="companies/lijuan/english breakfast tea.php">
                                 <img src="images/lijuan/7.jpg"
                                     alt="english breakfast">
                                 <div class="overlay">
@@ -342,7 +342,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/foam-read-tea.php">
+                            <a href="companies/lijuan/foam read tea.php">
                                 <img src="images/lijuan/2.jpg" alt="foam read tea">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -356,7 +356,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/hong-kong-style-milk-tea.php">
+                            <a href="companies/lijuan/hong kong style milk tea.php">
                                 <img src="images/lijuan/1.jpg" alt="hong kong style">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -370,7 +370,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/jasmine-tea.php">
+                            <a href="companies/lijuan/jasmine tea.php">
                                 <img src="images/lijuan/10.jpg" alt="jasmine tea">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -384,7 +384,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/jin-xuan-tea.php">
+                            <a href="companies/lijuan/jin xuan tea.php">
                                 <img src="images/lijuan/8.jpg" alt="jin xuan tea">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -398,7 +398,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/mango-pomelo-sago.php">
+                            <a href="companies/lijuan/mango pomelo sago.php">
                                 <img src="images/lijuan/5.jpg" alt="mongo pomelo sago">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -412,7 +412,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/milk-cap-tea.php">
+                            <a href="companies/lijuan/milk cap tea.php">
                                 <img src="images/lijuan/3.jpg" alt="milk cap tea">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -426,7 +426,7 @@
 
                     <div class="bgrid item">
                         <div class="item-wrap">
-                            <a href="companies/lijuan/sago-soup.php">
+                            <a href="companies/lijuan/sago soup.php">
                                 <img src="images/lijuan/9.jpg" alt="sago soup">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
