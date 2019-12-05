@@ -80,6 +80,7 @@ get_product_view_count();
 
     The black teas included in the blend vary, with Assam, Ceylon and Kenyan teas predominating, and Keemun sometimes included in more expensive blends.
 </div>
+</section>
 <?php
     include "$path/productFooter.php";?>
 </body>

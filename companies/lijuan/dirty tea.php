@@ -76,6 +76,7 @@ get_product_view_count();
 <div>
 The so-called "dirty tea", "dirty" is actually the gorgeous and cool tiger pattern on the cup wall, which is the effect of milk pouring into brown sugar instantly. Only fresh milk and now thick brown sugar can form, giving a dirty vision, and this "tiger" is the soul of dirty tea.
 </div>
+    </section>
 <?php
     include "$path/productFooter.php";?>
 </body>
