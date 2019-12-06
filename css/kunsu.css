@@ -5,3 +5,4 @@ body { font: 14px sans-serif; text-align: center; }
 .product { float: left; padding-top: 75px; padding-left: 80px; }
 .experiences li { text-align: left; }
 .user { max-width: 1170px; }
+.google { display: inline-block; margin-top: 30px; }
