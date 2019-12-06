@@ -4,6 +4,7 @@
 
 if ( $_SERVER['HTTP_X_GITHUB_EVENT'] ) {
     shell_exec("cd /var/www/html/MarketPlace/ && git pull");
+    print("Git updated");
 }
 
 ?>
