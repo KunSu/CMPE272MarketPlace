@@ -45,8 +45,7 @@
             <div class="bgrid stack item">
                 <div class="item-wrap">
                     <a href="companies/kunsu/Tom Clancy's The Division 2.php">
-                        <img src="images/kunsu/Tom Clancy's The Division 2.jpg"</img>
-                            alt="Tom Clancy's The Division 2">
+                        <img src="images/kunsu/Tom Clancy's The Division 2.jpg" alt="Tom Clancy's The Division 2"></img>
                         <div class="overlay">
                             <div class="portfolio-item-meta">
                                 <h5>Tom Clancy's The Division 2</h5>
