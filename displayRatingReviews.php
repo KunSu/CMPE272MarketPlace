@@ -47,11 +47,11 @@
                     echo "<td>" . $row['created_at'] . "</td>";
                     echo "</tr>";
                 }
-                mysqli_close($db_connection);  
+                mysqli_close($db_connection);
             ?>
 
             </tbody>
         </table>
-        
+
     </body>
 </html>
