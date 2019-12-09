@@ -27,7 +27,8 @@
       mysqli_stmt_execute($stmt);
       mysqli_stmt_close($stmt);
       mysqli_close($db_connection);
-
+      $redirect =$name . ".php";
+      //TODO: handle redirect
 
 	} 
 	else 
