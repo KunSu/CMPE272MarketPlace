@@ -2,8 +2,8 @@
 
     <div class="row section-head">
         <div class="twelve columns about">
-            <h1>Top 10 Web Services of All Time<span>.</span></h1>
-            <p>Below is the list of Top 10 Web Services of All Time.</p>
+            <h1>Top 10 Web Services of all<span>.</span></h1>
+            <p>Below is the list of Top 10 Web Services of all.</p>
             <br></br>
         </div>
     </div>

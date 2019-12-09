@@ -44,8 +44,12 @@
       <?php 
          get_cookies(); 
          echo "<br>" ;
-         //get_product_view_count();
+         echo '<aside class="product">';
+         echo "<p>Last five most visited pages within One company</p>";
+         get_product_view_count();
+         echo "<p>Last five most visited pages from all</p>";
          get_top_five();
+         echo "</aside>";
       ?>
 
       <div class="row portfolio-content">

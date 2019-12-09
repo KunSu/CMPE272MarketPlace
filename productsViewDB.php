@@ -39,8 +39,8 @@ function get_top_five(){
     if(isset($_COOKIE["product_view_count"])) {
 
         $result = mysqli_query($db_connection,"SELECT name, visitedCount, companyName FROM product WHERE visitedCount > 0 ORDER BY visitedCount DESC");
-        echo '<aside class="product">';
-        echo "<p>Last five most visited pages from all time</p>";
+        //echo '<aside class="product">';
+        //echo "<p>Last five most visited pages from all</p>";
         $index = 0;
         for ($index = 0; $index <5; $index++) {
             if (($query_data = mysqli_fetch_array($result))){
@@ -48,7 +48,7 @@ function get_top_five(){
                 echo "<br><a href=" . $path . $query_data['companyName']."/" . $url . ".php>" . $query_data['name'] . ": " . $query_data['visitedCount'] . " views</a><br>";
             }
         }
-        echo "</aside>";
+        //echo "</aside>";
     }
     
     mysqli_close($db_connection);
