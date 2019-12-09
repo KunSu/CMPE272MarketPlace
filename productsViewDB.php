@@ -33,17 +33,19 @@ function update_view_count_productDB($product_name) {
 }
 
 function get_top_five(){
+    $path = "../";
     $db_connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
     if(isset($_COOKIE["product_view_count"])) {
 
-        $result = mysqli_query($db_connection,"SELECT name, visitedCount FROM product WHERE visitedCount > 0 ORDER BY visitedCount DESC");
+        $result = mysqli_query($db_connection,"SELECT name, visitedCount, companyName FROM product WHERE visitedCount > 0 ORDER BY visitedCount DESC");
         echo '<aside class="product">';
         echo "<p>Last five most visited pages from all time</p>";
         $index = 0;
         for ($index = 0; $index <5; $index++) {
             if (($query_data = mysqli_fetch_array($result))){
-                echo "<br> " . $query_data['name'] . ": " . $query_data['visitedCount'] . " views<br>";
+                $url = str_replace(' ', '%20', $query_data['name']);
+                echo "<br><a href=" . $path . $query_data['companyName']."/" . $url . ".php>" . $query_data['name'] . ": " . $query_data['visitedCount'] . " views</a><br>";
             }
         }
         echo "</aside>";
