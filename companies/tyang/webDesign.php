@@ -4,7 +4,7 @@
    require_once "$path/productsViewDB.php";
    set_cookies(basename(__FILE__, '.php'));
    add_product_view_count(basename(__FILE__, '.php'));
-   update_view_count_productDB(basename(__FILE__, '.php'));
+   update_view_count_productDB(basename(__FILE__, '.php')); ?>
 ?>
 
 <!DOCTYPE html>

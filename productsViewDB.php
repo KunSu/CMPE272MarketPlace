@@ -17,9 +17,9 @@ function update_view_count_productDB($product_name) {
     
     if(!isset($_COOKIE["product_view_count"])) {
         echo "Cookie is not set.";
-        $result = "UPDATE product SET viewCount = 0 WHERE name = '$product_name'";
+        $result = "UPDATE product SET visitedCount = 0 WHERE name = '$product_name'";
     }else {        
-        $result = "UPDATE product SET viewCount = viewCount + 1 WHERE name = '$product_name' ";
+        $result = "UPDATE product SET visitedCount = visitedCount + 1 WHERE name = '$product_name' ";
     }
 
     if (mysqli_query($db_connection, $result)) {
@@ -37,13 +37,13 @@ function get_top_five(){
 
     if(isset($_COOKIE["product_view_count"])) {
 
-        $result = mysqli_query($db_connection,"SELECT name, viewCount FROM product WHERE viewCount > 0 ORDER BY viewCount DESC");
+        $result = mysqli_query($db_connection,"SELECT name, visitedCount FROM product WHERE visitedCount > 0 ORDER BY visitedCount DESC");
         echo '<aside class="product">';
         echo "<p>Last five most visited pages from all time</p>";
         $index = 0;
         for ($index = 0; $index <5; $index++) {
             if (($query_data = mysqli_fetch_array($result))){
-                echo "<br> " . $query_data['name'] . ": " . $query_data['viewCount'] . " views<br>";
+                echo "<br> " . $query_data['name'] . ": " . $query_data['visitedCount'] . " views<br>";
             }
         }
         echo "</aside>";
