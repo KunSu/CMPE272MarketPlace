@@ -63,6 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         $_SESSION["loggedin"] = true;
                         $_SESSION["id"] = $id;
                         $_SESSION["username"] = $username;                            
+                        setcookie("userID", $id, time() + 60 * 60 * 24 * 5);
                         
                         // Redirect user to welcome page
                         header("location: admin.php");
