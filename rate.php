@@ -1,7 +1,7 @@
 <?php
 include "config.php";
 
-if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment']))
+if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment'], $_COOKIE['userID']))
 {
 	//get the rating
 	$rating = $_GET['rating'];
@@ -15,7 +15,7 @@ if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment']))
 
 	//get the user information
 	//TODO...
-	$userID = 321; //fake testing data
+	$userID = $_COOKIE['userID'];
 
 	//get the review description
 	$review = $_GET['comment'];
