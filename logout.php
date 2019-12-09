@@ -6,7 +6,7 @@ session_start();
 
 // Unset all of the session variables
 $_SESSION = array();
-
+setcookie("userID", 0, time());
 // Destroy the session.
 session_destroy();
 
