@@ -46,7 +46,7 @@
       <?php 
          get_cookies(); 
          echo "<br>";
-         //get_product_view_count();
+         get_product_view_count();
          get_top_five();
       ?>
 

@@ -17,7 +17,7 @@ function update_view_count_productDB($product_name) {
     
     if(!isset($_COOKIE["product_view_count"])) {
         echo "Cookie is not set.";
-        $result = "UPDATE product SET viewCount = 0";
+        $result = "UPDATE product SET viewCount = 0 WHERE name = '$product_name'";
     }else {        
         $result = "UPDATE product SET viewCount = viewCount + 1 WHERE name = '$product_name' ";
     }
@@ -43,7 +43,7 @@ function get_top_five(){
         $index = 0;
         for ($index = 0; $index <5; $index++) {
             if (($query_data = mysqli_fetch_array($result))){
-                echo "<br><a href=" . $query_data['name']. ".php>" . $query_data['name'] . ": " . $query_data['viewCount'] . " views</a><br>";
+                echo "<br> " . $query_data['name'] . ": " . $query_data['viewCount'] . " views<br>";
             }
         }
         echo "</aside>";
