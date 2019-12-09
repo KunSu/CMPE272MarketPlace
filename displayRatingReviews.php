@@ -3,7 +3,6 @@
 
     /* Database credentials. Assuming you are running MySQL
     server with default setting (user 'root' with no password) */
-    session_start();
     //check if the user is already logged in, if no then redirect him to login page
 
     // if(!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
@@ -15,17 +14,6 @@
 
     $sql = "SELECT * FROM productreviews";
     $result = mysqli_query($db_connection, $sql);
-    // while($row = mysqli_fetch_array($result))
-    // {
-    //     echo "<th>" . $row['id'] . "</td>";
-    //     echo "<td>" . $row['productID'] . "</td>";
-    //     echo "<td>" . $row['userID'] . "</td>";
-    //     echo "<td>" . $row['rating'] . "</td>";
-    //     echo "<td>" . $row['review'] . "</td>";
-    //     echo "<td>" . $row['created_at'] . "</td>";
-    //     echo "</tr>";
-    // }
-    //print_r($result);
 ?>
 
 <!DOCTYPE html>
