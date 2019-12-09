@@ -46,7 +46,8 @@
                     echo "<td>" . $row['review'] . "</td>";
                     echo "<td>" . $row['created_at'] . "</td>";
                     echo "</tr>";
-                }  
+                }
+                mysqli_close($db_connection);  
             ?>
 
             </tbody>
