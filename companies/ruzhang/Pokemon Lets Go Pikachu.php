@@ -85,6 +85,10 @@ Pokémon: Let's Go, Pikachu! and Pokémon: Let's Go, Eevee! are remakes of the 1
          </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment&rating.php"
+      ?>
    </section>
 
    <!-- Footer

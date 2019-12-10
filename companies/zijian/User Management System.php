@@ -86,9 +86,11 @@ add_product_view_count(basename(__FILE__, '.php'));
       </div> <!-- /entry -->
 
     </div> <!-- /portfolio-content -->
-
-
-    <?php include "$path/comment&rating.php"?>
+    
+    <?php
+    $include_name = basename(__FILE__, '.php');
+    include "$path/comment&rating.php"
+    ?>
 
 
   </section>

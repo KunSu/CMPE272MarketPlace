@@ -89,6 +89,10 @@ Lead a team of elite agents into a post-pandemic Washington, DC, to restore orde
          </div> <!-- /entry -->	      
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment&rating.php"
+      ?>
    </section>
 
    <!-- Footer

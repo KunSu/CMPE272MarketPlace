@@ -30,7 +30,7 @@
 
           if(!empty($_POST["rate"]) && !empty($_POST["comment"])){
             echo $comment . " and " . $rate;
-            header("Location: ../../rate.php?name=" . basename(__FILE__, '.php'). "&rating=" . $rate. "&comment=" . $comment);
+            header("Location: ../../rate.php?name=" . $include_name. "&rating=" . $rate. "&comment=" . $comment);
           }
 
         }
@@ -60,7 +60,8 @@
       <br>
        <div class = "displayComment">
         <center>
-          <?php include "$path/displayRatingReviews.php";?>
+          <?php include "$path/displayRatingReviews.php";
+          ?>
         </center>
       </div>
     </div>

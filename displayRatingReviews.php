@@ -1,17 +1,11 @@
 <?php
-    // Reference: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
-
-    /* Database credentials. Assuming you are running MySQL
-    server with default setting (user 'root' with no password) */
-    //check if the user is already logged in, if no then redirect him to login page
-
-    // if(!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    //     header("location: login.php");
-    //     exit;
-    // }
-
     require_once "config.php";
-    $sql = "SELECT * FROM productreviews";
+    $productID_sql = "SELECT id FROM product WHERE name = '$include_name'";
+    $productID_query = mysqli_query($db_connection, $productID_sql);
+    $productID_query = mysqli_fetch_array($productID_query);
+    $productID = $productID_query['id'];
+
+    $sql = "SELECT * FROM productreviews WHERE productID = '$productID'";
     $result = mysqli_query($db_connection, $sql);
 ?>
 

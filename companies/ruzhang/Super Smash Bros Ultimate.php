@@ -86,6 +86,10 @@ Super Smash Bros. Ultimate is a 2018 crossover fighting game developed by Bandai
          </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment&rating.php"
+      ?>
    </section>
 
    <!-- Footer

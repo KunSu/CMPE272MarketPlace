@@ -83,6 +83,10 @@ The jasmine plant is grown at high elevations in the mountains. Jasmine tea prod
 Modern biological studies have shown that drinking jasmine tea can have health and immunity benefits. Jasmine tea contains several different kinds of antioxidants that provide protection to the membranes of red blood cells; this added protection helps fend off free radical-induced oxidation of the red blood cells.
 
 </div>
+<?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment&rating.php"
+      ?>
 </section>
 <?php
     include "$path/productFooter.php";?>

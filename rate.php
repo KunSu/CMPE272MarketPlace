@@ -14,7 +14,6 @@ if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment'], $_COOKIE['userID']))
 	$productID = $productID_query['id'];
 
 	//get the user information
-	//TODO...
 	$userID = $_COOKIE['userID'];
 
 	//get the review description
