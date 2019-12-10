@@ -21,30 +21,25 @@
     <head>
     </head>
     <body>
+        <h1>Comment Section</h1>
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">ID:</th>
-                    <th scope="col">productID:</th>
                     <th scope="col">userID:</th>
+                    <th scope="col">created_at:</th>
                     <th scope="col">rating:</th>
                     <th scope="col">review:</th>
-                    <th scope="col">created_at:</th>
                 </tr>
             </thead>
             <tbody>
             <?php
-                $index = 1;
                 while($row = mysqli_fetch_array($result))
                 {
                     echo "<tr>";
-                    // echo "<th scope=\"row\">" . $index++ . "</th>";
-                    echo "<td>" . $row['id'] . "</td>";
-                    echo "<td>" . $row['productID'] . "</td>";
-                    echo "<td>" . $row['userID'] . "</td>";
-                    echo "<td>" . $row['rating'] . "</td>";
-                    echo "<td>" . $row['review'] . "</td>";
-                    echo "<td>" . $row['created_at'] . "</td>";
+                    echo '<td style="text-align:center;">' . $row['userID'] . '</td>';
+                    echo '<td style="text-align:center;">' . $row['created_at'] . "</td>";
+                    echo '<td style="text-align:center;">' . $row['rating'] . "</td>";
+                    echo '<td style="text-align:center;">' . $row['review'] . "</td>";
                     echo "</tr>";
                 }
                 mysqli_close($db_connection);

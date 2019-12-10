@@ -159,8 +159,11 @@ $result = mysqli_query($db_connection, $sql);
       </form>
 
       <br>
-
-      <?php include "$path/displayRatingReviews.php";?>
+       <div class = "displayComment">
+        <center>
+          <?php include "$path/displayRatingReviews.php";?>
+        </center>
+      </div>
 
 
 
