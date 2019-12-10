@@ -11,7 +11,6 @@
     // }
 
     require_once "config.php";
-
     $sql = "SELECT * FROM productreviews";
     $result = mysqli_query($db_connection, $sql);
 ?>

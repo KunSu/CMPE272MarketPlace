@@ -1,4 +1,5 @@
 <?php
+ob_start();
 function set_cookies($cached_page_name) {
     $LRUCache = array();
     if (isset($_COOKIE["LRU"])) {

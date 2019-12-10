@@ -1,5 +1,4 @@
 <?php
-ob_start();
 $path = "../../";
 require_once "$path/cookies.php";
 set_cookies(basename(__FILE__, '.php'));

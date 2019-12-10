@@ -10,7 +10,7 @@
           $data = htmlspecialchars($data);
           return $data;
         }
-        
+
         $rateErr = $commentErr= "";
         $rate = $comment = "";
 

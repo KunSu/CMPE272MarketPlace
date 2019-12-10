@@ -87,6 +87,7 @@
          </div> <!-- /entry -->	      
 
       </div> <!-- /portfolio-content -->
+      <?php include "$path/comment&rating.php"?>
    </section>
 
    <!-- Footer
