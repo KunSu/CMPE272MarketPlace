@@ -46,7 +46,7 @@
       <?php 
          get_cookies(); 
          echo "<br>";
-         //         echo '<aside class="product">';
+         echo '<aside class="product">';
          echo "<p>Last five most visited pages within One company</p>";
          get_product_view_count();
          echo "<p>Last five most visited pages from all</p>";
