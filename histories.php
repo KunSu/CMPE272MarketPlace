@@ -10,7 +10,7 @@ require_once "config.php";
 
 $userid = $_SESSION["id"];
 
-//process get request
+//get last 5
 $sql = "SELECT item, max(created_at) FROM histories where userid = ".$userid." GROUP BY item ORDER BY max(created_at) DESC LIMIT 5";
 
 $histories = array();
