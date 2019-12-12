@@ -91,7 +91,7 @@
       </div> <!-- /portfolio-content -->
       <?php
        $include_name = basename(__FILE__, '.php');
-       include "$path/comment&rating.php"
+       include "$path/comment_rating.php"
       ?>
    </section>
 

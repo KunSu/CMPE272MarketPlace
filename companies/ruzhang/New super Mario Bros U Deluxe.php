@@ -88,7 +88,7 @@ New Super Mario Bros. U is a 2.5D side-scrolling platform video game developed a
       </div> <!-- /portfolio-content -->
       <?php
        $include_name = basename(__FILE__, '.php');
-       include "$path/comment&rating.php"
+       include "$path/comment_rating.php"
       ?>
    </section>
 

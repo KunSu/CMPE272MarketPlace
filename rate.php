@@ -1,7 +1,7 @@
 <?php
 include "config.php";
 
-if(isset($_GET['rating'] ,$_GET['name']))
+if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment']))
 {
 	//get the rating
 	$rating = $_GET['rating'];
@@ -18,7 +18,7 @@ if(isset($_GET['rating'] ,$_GET['name']))
 	$userID = 321; //fake testing data
 
 	//get the review description
-	$review = "Good";
+	$review = $_GET['comment'];
 
 	//insert new record into product review
 	$productreviews_sql = "INSERT INTO productreviews (productID, userID, rating, review) VALUES ('$productID', '$userID', '$rating', '$review')";

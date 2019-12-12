@@ -88,7 +88,7 @@ Super Mario Maker 2 is a side-scrolling platform game and game creation system d
       </div> <!-- /portfolio-content -->
       <?php
        $include_name = basename(__FILE__, '.php');
-       include "$path/comment&rating.php"
+       include "$path/comment_rating.php"
       ?>
    </section>
 

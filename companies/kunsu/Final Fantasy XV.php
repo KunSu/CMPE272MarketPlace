@@ -90,7 +90,7 @@ Fight the imperial army to reclaim Eos in Final Fantasy XV. You are the crown pr
       </div> <!-- /portfolio-content -->
       <?php
        $include_name = basename(__FILE__, '.php');
-       include "$path/comment&rating.php"
+       include "$path/comment_rating.php"
       ?>
    </section>
 
