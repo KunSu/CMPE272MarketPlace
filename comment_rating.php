@@ -4,7 +4,7 @@
       <p>Leave your comment and rating below!</p>
 
       <?php
-        function test_input($data) {
+        function valid_input($data) {
           $data = trim($data);
           $data = stripslashes($data);
           $data = htmlspecialchars($data);
@@ -19,13 +19,13 @@
           if (empty(trim($_POST["comment"]))) {
             $commentErr = "Commet is required";
           } else {
-            $comment = test_input($_POST["comment"]);
+            $comment = valid_input($_POST["comment"]);
           }
 
           if (empty($_POST["rate"])) {
             $rateErr = "Rate is required";
           } else {
-            $rate = test_input($_POST["rate"]);
+            $rate = valid_input($_POST["rate"]);
           }
 
           if(!empty($_POST["rate"]) && !empty(trim($_POST["comment"]))){
