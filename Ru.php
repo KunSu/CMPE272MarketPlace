@@ -113,8 +113,7 @@
                 <div class="bgrid item">
                     <div class="item-wrap">
                         <a href="companies/ruzhang/New super Mario Bros U Deluxe.php">
-                            <img src="images/ruzhang/New super Mario Bros U Deluxe.png"</img>
-                                alt="New super Mario Bros. U Deluxe">
+                            <img src="images/ruzhang/New super Mario Bros U Deluxe.png" alt="New super Mario Bros. U Deluxe"></img>
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>New super Mario Bros. U Deluxe</h5>
@@ -142,8 +141,7 @@
                 <div class="bgrid item">
                     <div class="item-wrap">
                         <a href="companies/ruzhang/The Legend of Zelda Links Awakening.php">
-                            <img src="images/ruzhang/The Legend of Zelda Links Awakening.png"</img>
-                                alt="The Legend of Zelda: Link's Awakening">
+                            <img src="images/ruzhang/The Legend of Zelda Links Awakening.png" alt="The Legend of Zelda: Link's Awakening"></img>
                             <div class="overlay">
                                 <div class="portfolio-item-meta">
                                     <h5>The Legend of Zelda: Link's Awakening</h5>

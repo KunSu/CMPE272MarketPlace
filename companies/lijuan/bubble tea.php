@@ -83,6 +83,10 @@ get_product_view_count();
     Bubble tea has now arrived in England and the rest of Europe.
     </P>
     </div>
+    <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment&rating.php"
+      ?>
     </section>
 <?php
     include "$path/productFooter.php";?>

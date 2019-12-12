@@ -29,8 +29,7 @@
                 <div class="bgrid item">
                     <div class="item-wrap">
                         <a href="companies/junyanwang/A Frozen SingAlong Celebration.php">
-                            <img src="images/junyanwang/A Frozen SingAlong Celebration.jpg"</img>
-                                alt="A Frozen SingAlong Celebration">
+                            <img src="images/junyanwang/A Frozen SingAlong Celebration.jpg" alt="A Frozen SingAlong Celebration"></img>
                             <div class="overlay"></div>
                             <div class="portfolio-item-meta">
                                 <h5>A Frozen SingAlong Celebration</h5>
@@ -43,8 +42,7 @@
                 <div class="bgrid item">
                     <div class="item-wrap">
                         <a href="companies/junyanwang/Star Wars Character Experience.php">
-                            <img src="images/junyanwang/Star Wars Character Experience.jpg"</img>
-                                alt="Star Wars Character Experience">
+                            <img src="images/junyanwang/Star Wars Character Experience.jpg" alt="Star Wars Character Experience"></img>
                             <div class="overlay"></div>
                             <div class="portfolio-item-meta">
                                 <h5>Star Wars Character Experience</h5>
@@ -83,8 +81,7 @@
                 <div class="bgrid item">
                     <div class="item-wrap">
                         <a href="companies/junyanwang/Meet the Toys in Toy Story Land.php">
-                            <img src="images/junyanwang/Meet the Toys in Toy Story Land.jpg"</img>
-                                alt="Meet the Toys in Toy Story Land">
+                            <img src="images/junyanwang/Meet the Toys in Toy Story Land.jpg" alt="Meet the Toys in Toy Story Land"></img>
                             <div class="overlay"></div>
                             <div class="portfolio-item-meta">
                                 <h5>Meet the Toys in Toy Story Land</h5>
