@@ -74,6 +74,7 @@
                     <li><a class="smoothscroll" href="#journal">News.</a></li>
                     <li><a class="smoothscroll" href="#contact">Contacts.</a></li>
                     <li><a href="login.php">Login.</a></li>
+                    <li><a href="histories.php">Histories.</a></li>
                 </ul>
 
             </nav> <!-- /nav-wrap -->

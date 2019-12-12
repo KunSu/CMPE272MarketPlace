@@ -10,7 +10,8 @@ require_once "config.php";
 $userid = $_SESSION["id"];
 
 //get last 5
-$sql = "SELECT item,company, max(created_at) FROM histories where userid = ".$userid." GROUP BY item, company ORDER BY max(created_at) DESC LIMIT 5";
+//$sql = "SELECT item,company, max(created_at) FROM histories where userid = ".$userid." GROUP BY item, company ORDER BY max(created_at) DESC LIMIT 5";
+$sql = "SELECT item,company,created_at FROM histories where userid = ".$userid." ORDER BY created_at DESC";
 
 echo "<h2>Hostories:</h2><div>";
 $histories = array();
@@ -34,7 +35,7 @@ function getHistoryOf($company, $userid) {
 
   $result = $db_connection->query($sql);
   if ($result->num_rows > 0) {
-    echo "<h3>History of ".$company.":</h3>";
+    echo "<h3>Last 5 of ".$company.":</h3>";
     while($row = $result->fetch_assoc()) {
       echo "<div><a href=\"/companies/".$company."/".$row["item"].".php\">".$row["item"]."</a></div>";
     echo "</div>";
