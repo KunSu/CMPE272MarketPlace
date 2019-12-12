@@ -8,6 +8,7 @@
           $data = trim($data);
           $data = stripslashes($data);
           $data = htmlspecialchars($data);
+          $data = substr($data, 0, 150);
           return $data;
         }
 
@@ -38,7 +39,7 @@
       <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <center>
           <textarea name="comment" rows="4" cols="80"><?php echo $comment;?></textarea>
-          <span class="error">*<?php echo $commentErr;?></span>
+          <span class="error"><?php echo $commentErr;?></span>
         </center>
         <br>
         Rate:
@@ -48,17 +49,15 @@
         <input type="radio" name="rate" <?php if (isset($rate) && $rate=="4") $rating = 4;?> value="4">4
         <input type="radio" name="rate" <?php if (isset($rate) && $rate=="5") $rating = 5;?> value="5">5
 
-        <span class="error">*<?php echo $rateErr;?></span>
+        <span class="error"><?php echo $rateErr;?></span>
         <br><br>
         <input type="submit" name="submit" value="Submit">
       </form>
 
       <br>
-       <div class = "displayComment">
         <center>
           <?php include "$path/displayRatingReviews.php";
           ?>
         </center>
-      </div>
     </div>
     </html>

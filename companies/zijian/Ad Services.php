@@ -23,8 +23,8 @@
 
    <!-- Page Title
    ================================================== -->
-   <section id="page-title">	
-   	  
+   <section id="page-title">
+
 		<div class="row">
 
 			<div class="twelve columns">
@@ -32,48 +32,48 @@
 				<h1>Zijian Guan<span></span></h1>
 				<p>Software Engineer</p>
 
-			</div>			    
+			</div>
 
-		</div> <!-- /row -->	   
+		</div> <!-- /row -->
 
    </section> <!-- /page-title -->
 
    <!-- Content
    ================================================== -->
    <section id="content">
-      <?php 
-         get_cookies(); 
+      <?php
+         get_cookies();
          echo "<br>";
          get_product_view_count();
       ?>
 
       <div class="row portfolio-content">
-         
+
          <div class="entry tab-whole nine columns centered">
-            
+
             <header class="entry-header">
 
                <h1 class="eåntry-title">
                <?php echo basename(__FILE__, '.php') ?>
-               </h1> 				 
-                  
+               </h1>
+
                <div class="entry-meta">
                   <ul>
                      <li>C4 WebService Company</li>
-                     <span class="meta-sep">•</span>								
+                     <span class="meta-sep">•</span>
                      <li>
                         <a rel="skills tag" title="" href="#">Top 10 most popular services</a>
                      </li>
                   </ul>
-               </div> 
-                     
+               </div>
+
             </header>
 
             <div class="entry-content-media">
                <div class="post-thumb">
                   <img src="<?php echo $path;?>images/zijian/<?php echo basename(__FILE__, '.php') ?>.jpg">
-               </div> 
-            </div> 		
+               </div>
+            </div>
 
             <div class="experiences">
                <!-- <p class="lead"> -->
@@ -83,8 +83,8 @@
                </p>
 
             </div>
-            			 
-         </div> <!-- /entry -->	      
+
+         </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
       <?php

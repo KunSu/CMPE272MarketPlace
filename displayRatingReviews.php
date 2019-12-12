@@ -7,6 +7,7 @@
 
     $sql = "SELECT * FROM productreviews WHERE productID = '$productID'";
     $result = mysqli_query($db_connection, $sql);
+
 ?>
 
 <!DOCTYPE html>
@@ -14,18 +15,26 @@
     <head>
     </head>
     <body>
-        <h1>Comment Section</h1>
+
         <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">userID:</th>
-                    <th scope="col">created_at:</th>
-                    <th scope="col">rating:</th>
-                    <th scope="col">review:</th>
-                </tr>
-            </thead>
             <tbody>
             <?php
+
+                if ($result->num_rows === 0){
+                  echo "<h1>There is no comment</h1>";
+                }
+                else{
+                  echo "<h1>Comment Section</h1>";
+                  echo "<thead>";
+                  echo "<tr>";
+                  echo "<th scope=\"col\">userID:</th>";
+                  echo "<th scope=\"col\">created_at:</th>";
+                  echo "<th scope=\"col\">rating:</th>";
+                  echo "<th scope=\"col\">review:</th>";
+                  echo "</tr>";
+                  echo" </thead>";
+                }
+                
                 while($row = mysqli_fetch_array($result))
                 {
                     echo "<tr>";
@@ -37,7 +46,6 @@
                 }
                 mysqli_close($db_connection);
             ?>
-
             </tbody>
         </table>
 

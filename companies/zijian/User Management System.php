@@ -1,8 +1,8 @@
 <?php
-$path = "../../";
-require_once "$path/cookies.php";
-set_cookies(basename(__FILE__, '.php'));
-add_product_view_count(basename(__FILE__, '.php'));
+  $path = "../../";
+  require_once "$path/cookies.php";
+  set_cookies(basename(__FILE__, '.php'));
+  add_product_view_count(basename(__FILE__, '.php'));
 ?>
 
 <!DOCTYPE html>
