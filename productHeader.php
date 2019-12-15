@@ -36,7 +36,9 @@
             <li><a href="<?php echo $path;?>index.php#about">About.</a></li>
             <li><a href="<?php echo $path;?>index.php#journal">Blog.</a></li>
             <li><a href="<?php echo $path;?>index.php#contact">Contact.</a></li>
-            </ul>
+            <li><a href="<?php echo $path;?>login.php">Login.</a></li>
+            <li><a href="<?php echo $path;?>histories.php">Histories.</a></li>
+            </ul> 
 
         </nav> <!-- /nav-wrap -->
 
