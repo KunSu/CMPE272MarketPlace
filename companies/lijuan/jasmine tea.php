@@ -76,7 +76,7 @@ echo "<br>";
 
     </header>
 <div class="entry-content-media">
-    <div class="post-thumb">
+    <div class="post-thumb" style="max-width: 500px;margin: auto;">
 <img with="400" height="400" src="<?php echo $path;?>images/lijuan/10.jpg">
     </div>
 </div>
