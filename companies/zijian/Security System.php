@@ -70,7 +70,7 @@
             </header>
 
             <div class="entry-content-media">
-               <div class="post-thumb">
+               <div class="post-thumb" style="max-width: 500px;margin: auto;">
                   <img src="<?php echo $path;?>images/zijian/<?php echo basename(__FILE__, '.php') ?>.jpg">
                </div> 
             </div> 		
