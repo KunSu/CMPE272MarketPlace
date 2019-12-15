@@ -30,23 +30,22 @@
                   echo "<th scope=\"col\">user:</th>";
                   echo "<th scope=\"col\">created_at:</th>";
                   echo "<th scope=\"col\">rating:</th>";
-                  echo "<th scope=\"col\">review:</th>";
                   echo "</tr>";
                   echo" </thead>";
                 }
 
                 while($row = mysqli_fetch_array($result))
                 {
+
                     echo "<tr>";
+
                     echo '<td style="text-align:center;">' . $row['userName'] . '</td>';
                     echo '<td style="text-align:center;">' . $row['created_at'] . "</td>";
                     echo '<td style="text-align:center;">' . $row['rating'] . "</td>";
                     if(strlen($row['review']) > 100)
-                      echo '<td style="text-align:center;">' . substr($row['review'], 0, 100) . " ...</td>";
+                      echo "<tr><td colspan='5' style='text-align:center;'>". substr($row['review'], 0, 100) . " ...</td></tr>";
                     else
-                      echo '<td style="text-align:center;">' . $row['review'] . "</td>";
-
-
+                      echo "<tr><td colspan='5' style='text-align:center;'>" . $row['review'] . "</td></tr>";
                     echo "</tr>";
                 }
                 mysqli_close($db_connection);
