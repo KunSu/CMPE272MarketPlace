@@ -29,6 +29,7 @@ if(isset($_GET['rating'] ,$_GET['name'], $_GET['comment']))
 	mysqli_close($db_connection);
 	$redirect =$name . ".php";
 	//TODO: handle redirect
+	header('Location: ' . $_SERVER['HTTP_REFERER']);
 
 }
 else
