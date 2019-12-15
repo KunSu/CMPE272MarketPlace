@@ -99,7 +99,7 @@
                         <!-- Slide -->
                         <li>
                             <div class="flex-caption">
-                                <h1>Welcome to Market Place.</h1>
+                                <h1>Welcome to Team Wonderful's Market Place.</h1>
                                 <p><a class="button stroke smoothscroll" href="#about">More About Us</a></p>
                             </div>
                         </li>
