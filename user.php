@@ -1,9 +1,6 @@
 <?php
 // Reference: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
 
-// Include config file
-require_once "config.php";
-
 // Initialize the session
 session_start();
 
@@ -13,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-function get_user_list($db_connection, $name) {
+function get_user_list() {
 
     $url = "http://kunsu.us/MarketPlace/getUser.php";
     $cURL = curl_init();
@@ -46,7 +43,7 @@ function get_user_list($db_connection, $name) {
          <div class="row">
             
             <div class="col col-md">
-                <p>Kun's Company</p>
+                <p>Market Place</p>
                 <table class="table">
                     <thead>
                         <tr>
@@ -58,7 +55,7 @@ function get_user_list($db_connection, $name) {
                     <tbody>
 
                     <?php
-                        $result = get_user_list($db_connection, "Kun");
+                        $result = get_user_list();
                         foreach ($result as $key => $value)
                         {
                             echo "<tr>";
@@ -137,5 +134,3 @@ function get_user_list($db_connection, $name) {
     </p>
 </body>
 </html>
-
-<?php mysqli_close($db_connection); ?>

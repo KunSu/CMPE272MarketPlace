@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $result[] = $r;
     }
     $json = json_encode($result, true);
-    print_r($json);
+    echo ($json);
 }
 
 ?>
