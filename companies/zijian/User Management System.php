@@ -1,8 +1,10 @@
-<?php
-  $path = "../../";
-  require_once "$path/cookies.php";
-  set_cookies(basename(__FILE__, '.php'));
-  add_product_view_count(basename(__FILE__, '.php'));
+<?php 
+   $path = "../../";
+   require_once "$path/cookies.php";
+   require_once "$path/productsViewDB.php";
+   set_cookies(basename(__FILE__, '.php'));
+   add_product_view_count(basename(__FILE__, '.php'));
+   update_view_count_productDB(basename(__FILE__, '.php')); 
 ?>
 
 <!DOCTYPE html>
@@ -16,85 +18,91 @@
 <?php include "$path/productHead.php"; ?>
 
 <body>
+   <!-- Header
+   =================================================== -->
+   <?php include "$path/productHeader.php"; ?>
 
-  <!-- Header
-  =================================================== -->
-  <?php include "$path/productHeader.php"; ?>
+   <!-- Page Title
+   ================================================== -->
+   <section id="page-title">	
+   	  
+		<div class="row">
 
-  <!-- Page Title
-  ================================================== -->
-  <section id="page-title">
+			<div class="twelve columns">
 
-    <div class="row">
+				<h1>Zijian Guan<span></span></h1>
+				<p>Software Engineer</p>
 
-      <div class="twelve columns">
+			</div>			    
 
-        <h1>Zijian Guan<span></span></h1>
-        <p>Software Engineer</p>
+		</div> <!-- /row -->	   
 
-      </div>
+   </section> <!-- /page-title -->
 
-    </div> <!-- /row -->
+   <!-- Content
+   ================================================== -->
+   <section id="content">
+      <?php 
+         get_cookies(); 
+         echo "<br>" ;
+         echo '<aside class="product">';
+         echo "<p>Last five most visited pages within One company</p>";
+         get_product_view_count();
+         echo "<p>Last five most visited pages from all</p>";
+         get_top_five();
+         echo "</aside>";
+      ?>
 
-  </section> <!-- /page-title -->
+      <div class="row portfolio-content">
+         
+         <div class="entry tab-whole nine columns centered">
+            
+            <header class="entry-header">
 
-  <!-- Content
-  ================================================== -->
-  <section id="content">
-    <?php
-    get_cookies();
-    echo "<br>" ;
-    get_product_view_count();
-    ?>
+               <h1 class="eåntry-title">
+               <?php echo basename(__FILE__, '.php') ?>
+               </h1> 				 
+                  
+               <div class="entry-meta">
+                  <ul>
+                     <li>C4 WebService Company</li>
+                     <span class="meta-sep">•</span>								
+                     <li>
+                        <a rel="skills tag" title="" href="#">Top 10 most popular services</a>
+                     </li>
+                  </ul>
+               </div> 
+                     
+            </header>
 
-    <div class="row portfolio-content">
+            <div class="entry-content-media">
+               <div class="post-thumb" style="max-width: 500px;margin: auto;">
+                  <img src="<?php echo $path;?>images/zijian/<?php echo basename(__FILE__, '.php') ?>.png">
+               </div> 
+            </div> 		
 
-      <div class="entry tab-whole nine columns centered">
+            <div class="experiences">
+               <!-- <p class="lead"> -->
+               <h5>Description</h5>
+               <p>
+                  C4 company will provide you the best User Management System ever! You can specify those users which are allowed to get into your website, and those you do not allow.
+               </p>
 
-        <header class="entry-header">
+            </div>
+            			 
+         </div> <!-- /entry -->	      
 
-          <h1 class="eåntry-title">
-            <?php echo basename(__FILE__, '.php') ?>
-          </h1>
+      </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
+   </section>
 
-          <div class="entry-meta">
-            <ul>
-              <li>C4 WebService Company</li>
-              <span class="meta-sep">•</span>
-              <li>
-                <a rel="skills tag" title="" href="#">Top 10 most popular services</a>
-              </li>
-            </ul>
-          </div>
 
-        </header>
-
-        <div class="entry-content-media">
-          <div class="post-thumb">
-            <img src="<?php echo $path;?>images/zijian/<?php echo basename(__FILE__, '.php') ?>.png">
-          </div>
-        </div>
-
-        <div class="experiences">
-          <!-- <p class="lead"> -->
-          <h5>Description</h5>
-          <p>
-            C4 company will provide you the best User Management System ever! You can specify those users which are allowed to get into your website, and those you do not allow.
-          </p>
-        </div>
-
-      </div> <!-- /entry -->
-
-    </div> <!-- /portfolio-content -->
-    <?php
-     $include_name = basename(__FILE__, '.php');
-     include "$path/comment_rating.php"
-    ?>
-  </section>
-
-  <!-- Footer
-  ================================================== -->
-  <?php include "$path/productFooter.php";?>
+   <!-- Footer
+   ================================================== -->
+   <?php include "$path/productFooter.php";?>
 </body>
 
 </html>

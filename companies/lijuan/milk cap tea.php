@@ -1,8 +1,10 @@
-<?php
+<?php 
    $path = "../../";
    require_once "$path/cookies.php";
+   require_once "$path/productsViewDB.php";
    set_cookies(basename(__FILE__, '.php'));
    add_product_view_count(basename(__FILE__, '.php'));
+   update_view_count_productDB(basename(__FILE__, '.php')); 
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +46,12 @@
 <?php 
     get_cookies(); 
 echo "<br>";
-get_product_view_count();
+         echo '<aside class="product">';
+         echo "<p>Last five most visited pages within One company</p>";
+         get_product_view_count();
+         echo "<p>Last five most visited pages from all</p>";
+         get_top_five();
+         echo "</aside>";
 ?>
 
 <div class="row portfolio-content">
@@ -69,7 +76,7 @@ get_product_view_count();
 
     </header>
 <div class="entry-content-media">
-    <div class="post-thumb">
+    <div class="post-thumb" style="max-width: 500px;margin: auto;">
     <img with="400" height="400" src="<?php echo $path;?>images/lijuan/3.jpg">
     </div>
     </div>

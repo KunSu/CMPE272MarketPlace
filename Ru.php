@@ -1,7 +1,7 @@
 <section id="portfolio">
     <div class="row section-head">
         <div class="twelve columns about">
-            <h1>Top 10 Switch Console Game of all time<span>.</span></h1>
+            <h1>Top 10 Switch Console Game of all<span>.</span></h1>
             <p>Below is the list of Top 10 Switch Console Game.</p>
             <br></br>
         </div>

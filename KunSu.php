@@ -3,8 +3,8 @@
 
 <div class="row section-head">
     <div class="twelve columns about">
-        <h1>Top 10 PS4 Games of All Time<span>.</span></h1>
-        <p>Below is the list of my person Top 10 PS4 Game of All Time.</p>
+        <h1>Top 10 PS4 Games of all<span>.</span></h1>
+        <p>Below is the list of my person Top 10 PS4 Game of all.</p>
         <br></br>
     </div>
 </div>
