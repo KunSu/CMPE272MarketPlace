@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 if (!isset($_SESSION["id"])) {
 return;
@@ -11,7 +10,7 @@ $item = $_SERVER["REQUEST_URI"];
 require_once "config.php";
 
 $sql = "INSERT into histories(userid, item, company,created_at) VALUE (".$userid.",'".getName($item)."','".getCompany($item)."', NOW())";
-echo $sql;
+
 if ($db_connection->query($sql) !== TRUE) {
   echo $db_connection->error;
 }

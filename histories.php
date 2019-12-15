@@ -18,7 +18,7 @@ $histories = array();
 $result = $db_connection->query($sql);
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-      echo "<div><a href=\"/companies/".$row["company"]."/".$row["item"].".php\">".$row["item"]."</a></div>";
+      echo "<p>" . $row["item"] . "</p>";
     }
 }
 echo "</div>";
@@ -37,7 +37,7 @@ function getHistoryOf($company, $userid) {
   if ($result->num_rows > 0) {
     echo "<h3>Last 5 of ".$company.":</h3>";
     while($row = $result->fetch_assoc()) {
-      echo "<div><a href=\"/companies/".$company."/".$row["item"].".php\">".$row["item"]."</a></div>";
+      echo "<p>" . $row["item"] . "</p>";
     echo "</div>";
     }
   }
