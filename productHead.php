@@ -11,6 +11,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
+require_once "updateLastFiveHeader.php";
 ?>
 <head>
     <!--- Basic Page Needs
