@@ -86,13 +86,18 @@
                <!-- <p class="lead"> -->
                <h5>Description</h5>
                <p>
-New Super Mario Bros. U is a 2.5D side-scrolling platform video game developed and published in 2012 by Nintendo for the Wii U. It is the fourth title in the New Super Mario Bros. series. An additional campaign for the Year of Luigi, New Super Luigi U, was released as downloadable content in June 2013.               </p>
+                 New Super Mario Bros. U is a 2.5D side-scrolling platform video game developed and published in 2012 by Nintendo for the Wii U. It is the fourth title in the New Super Mario Bros. series. An additional campaign for the Year of Luigi, New Super Luigi U, was released as downloadable content in June 2013.
+               </p>
 
             </div>
 
          </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
    </section>
 
    <!-- Footer

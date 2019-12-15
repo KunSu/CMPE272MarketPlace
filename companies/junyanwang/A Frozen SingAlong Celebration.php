@@ -25,8 +25,8 @@
 
    <!-- Page Title
    ================================================== -->
-   <section id="page-title">	
-   	  
+   <section id="page-title">
+
 		<div class="row">
 
 			<div class="twelve columns">
@@ -34,17 +34,17 @@
 				<h1>Junyan Wang<span></span></h1>
 				<p>Software Engineer | Gourmet | Traveller</p>
 
-			</div>			    
+			</div>
 
-		</div> <!-- /row -->	   
+		</div> <!-- /row -->
 
    </section> <!-- /page-title -->
 
    <!-- Content
    ================================================== -->
    <section id="content">
-      <?php 
-         get_cookies(); 
+      <?php
+         get_cookies();
          echo "<br>";
          echo '<aside class="product">';
          echo "<p>Last five most visited pages within One company</p>";
@@ -55,32 +55,32 @@
       ?>
 
       <div class="row portfolio-content">
-         
+
          <div class="entry tab-whole nine columns centered">
-            
+
             <header class="entry-header">
 
                <h1 class="eåntry-title">
                <?php echo basename(__FILE__, '.php') ?>
-               </h1> 				 
-                  
+               </h1>
+
                <div class="entry-meta">
                   <ul>
                      <li>Kiddos Kingdom</li>
-                     <span class="meta-sep">•</span>								
+                     <span class="meta-sep">•</span>
                      <li>
                         <a rel="skills tag" title="" href="#">Top 10 Popular Services</a>
                      </li>
                   </ul>
-               </div> 
-                     
+               </div>
+
                   </header>
 
             <div class="entry-content-media">
                <div class="post-thumb" style="max-width: 500px;margin: auto;">
                   <img src="<?php echo $path;?>images/junyanwang/<?php echo basename(__FILE__, '.php') ?>.jpg">
-               </div> 
-            </div> 		
+               </div>
+            </div>
 
             <div class="experiences">
                <!-- <p class="lead"> -->
@@ -90,10 +90,14 @@
                </p>
             </div>
 
-            			 
-         </div> <!-- /entry -->	      
+
+         </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
+      <?php
+        $include_name = basename(__FILE__, '.php');
+        include "$path/comment_rating.php"
+      ?>
    </section>
 
    <!-- Footer

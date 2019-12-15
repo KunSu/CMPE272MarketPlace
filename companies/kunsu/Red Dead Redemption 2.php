@@ -102,6 +102,10 @@ This item cannot be returned or refunded, please visit to learn more.
          </div> <!-- /entry -->	      
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
    </section>
 
    <!-- Footer

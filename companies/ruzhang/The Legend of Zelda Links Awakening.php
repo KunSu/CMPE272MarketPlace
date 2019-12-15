@@ -93,6 +93,10 @@ The Legend of Zelda: Link's Awakening is an action-adventure game developed by G
          </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
    </section>
 
    <!-- Footer

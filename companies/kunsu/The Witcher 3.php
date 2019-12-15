@@ -97,6 +97,10 @@ Face the consequences of your choices in The Witcher 3: Wild Hunt for the PlaySt
          </div> <!-- /entry -->	      
 
       </div> <!-- /portfolio-content -->
+      <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
    </section>
 
    <!-- Footer

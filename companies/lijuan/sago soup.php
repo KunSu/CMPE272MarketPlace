@@ -86,6 +86,10 @@ echo "<br>";
     Sago soup or Sai mai lou is a type of tong sui dessert in Cantonese cuisine, which is also a variant of tapioca pudding. It is basically made by pearl tapioca (sago), coconut milk and evaporated milk. The dish is traditionally prepared using sago starch, which is derived from sago palm pith.[4] Other ingredients can also be added, such as taro, pumpkin, mango, etc.
     </P>
     </div>
+    <?php
+       $include_name = basename(__FILE__, '.php');
+       include "$path/comment_rating.php"
+      ?>
     </section>
 <?php
     include "$path/productFooter.php";?>

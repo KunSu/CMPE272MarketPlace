@@ -1,24 +1,25 @@
 <?php
- define('DB_SERVER', 'localhost');
- define('DB_USERNAME', 'dev');
- define('DB_PASSWORD', '123456');
- define('DB_NAME', 'market_place');
+ // define('DB_SERVER_1', 'localhost');
+ // define('DB_USERNAME_1', 'dev');
+ // define('DB_PASSWORD_1', '123456');
+ // define('DB_NAME_1', 'market_place');
+ require_once "config.php";
 
- 
+
 function update_view_count_productDB($product_name) {
-     
+
     /* Attempt to connect to MySQL database */
     $db_connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-    
+
     // Check connection
     if($db_connection === false){
         die("ERROR: Could not connect to the Database." . mysqli_connect_error());
     }
-    
+
     if(!isset($_COOKIE["product_view_count"])) {
         echo "Cookie is not set.";
         $result = "UPDATE product SET visitedCount = 0 WHERE name = '$product_name'";
-    }else {        
+    }else {
         $result = "UPDATE product SET visitedCount = visitedCount + 1 WHERE name = '$product_name' ";
     }
 
@@ -28,8 +29,8 @@ function update_view_count_productDB($product_name) {
     } else {
         echo "Error updating record: " . mysqli_error($db_connection);
     }
-    
-    mysqli_close($db_connection);
+
+    // mysqli_close($db_connection);
 }
 
 function get_top_five(){
@@ -50,8 +51,8 @@ function get_top_five(){
         }
         //echo "</aside>";
     }
-    
-    mysqli_close($db_connection);
+
+    // mysqli_close($db_connection);
 
 }
 

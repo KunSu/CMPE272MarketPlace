@@ -96,6 +96,11 @@
       </div> <!-- /portfolio-content -->
    </section>
 
+   <?php
+    $include_name = basename(__FILE__, '.php');
+    include "$path/comment_rating.php"
+   ?>
+
    <!-- Footer
    ================================================== -->
    <?php include "$path/productFooter.php";?>
