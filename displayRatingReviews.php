@@ -8,6 +8,17 @@
     $sql = "SELECT * FROM productreviews WHERE productID = '$productID' ORDER BY created_at DESC";
     $result = mysqli_query($db_connection, $sql);
 
+    echo "Mostly commented 5 products<br>";
+    $mostCommentProduct_sql = "SELECT productID, COUNT(*) AS MAGNITUDE FROM productreviews GROUP BY PRODUCTID ORDER BY MAGNITUDE DESC LIMIT 5";
+    $MOSTCOMMENTPRODUCT_query = mysqli_query($db_connection, $mostCommentProduct_sql);
+    while($row = mysqli_fetch_array($MOSTCOMMENTPRODUCT_query)){
+      $productID = $row['productID'];
+      $productName_sql = "SELECT name FROM product WHERE id = $productID";
+      $productName_query = mysqli_query($db_connection, $productName_sql);
+      $productName_query = mysqli_fetch_array($productName_query);
+      echo $productName_query['name']. "<br>";
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +32,7 @@
             <?php
 
                 if ($result->num_rows === 0){
-                  echo "<h1>There is no comment</h1>";
+                  echo "<h1>There is no comment for this product</h1>";
                 }
                 else{
                   echo "<h1>Comment Section</h1>";
