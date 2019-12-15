@@ -6,6 +6,7 @@
       <?php
         function valid_input($data) {
           $data = trim($data);
+          $data = trim(preg_replace('/\s\s+/', ' ', $data));
           $data = stripslashes($data);
           $data = htmlspecialchars($data);
           $data = substr($data, 0, 150);
