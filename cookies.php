@@ -52,8 +52,6 @@ function get_product_view_count() {
     if (isset($_COOKIE["product_view_count"])) {
         $products = json_decode($_COOKIE["product_view_count"], true);
     } 
-    echo '<aside class="product">';
-    echo "<p>Last five most visited pages</p>";
     asort($products);
     $index = 0;
     foreach ($products as $product_name => $product_count) {
@@ -64,6 +62,5 @@ function get_product_view_count() {
             break;
         }
     }
-    echo "</aside>";
 }
 ?>
