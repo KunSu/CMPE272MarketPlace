@@ -4,7 +4,7 @@
    require_once "$path/productsViewDB.php";
    set_cookies(basename(__FILE__, '.php'));
    add_product_view_count(basename(__FILE__, '.php'));
-   update_view_count_productDB(basename(__FILE__, '.php')); 
+   update_view_count_productDB(basename(__FILE__, '.php'));
 ?>
 
 <!DOCTYPE html>
@@ -25,8 +25,8 @@
 
    <!-- Page Title
    ================================================== -->
-   <section id="page-title">	
-   	  
+   <section id="page-title">
+
 		<div class="row">
 
 			<div class="twelve columns">
@@ -34,17 +34,17 @@
 				<h1>Kun Su<span></span></h1>
 				<p>Software Engineer | Puzzle Solver | Game Maker</p>
 
-			</div>			    
+			</div>
 
-		</div> <!-- /row -->	   
+		</div> <!-- /row -->
 
    </section> <!-- /page-title -->
 
    <!-- Content
    ================================================== -->
    <section id="content">
-      <?php 
-         get_cookies(); 
+      <?php
+         get_cookies();
          echo "<br>";
          echo '<aside class="product">';
          echo "<p>Last five most visited pages within One company</p>";
@@ -55,32 +55,32 @@
       ?>
 
       <div class="row portfolio-content">
-         
+
          <div class="entry tab-whole nine columns centered">
-            
+
             <header class="entry-header">
 
                <h1 class="eåntry-title">
                <?php echo basename(__FILE__, '.php') ?>
-               </h1> 				 
-                  
+               </h1>
+
                <div class="entry-meta">
                   <ul>
                      <li>PlayStation 4</li>
-                     <span class="meta-sep">•</span>								
+                     <span class="meta-sep">•</span>
                      <li>
                         <a rel="skills tag" title="" href="#">Top 10 Games of all</a>
                      </li>
                   </ul>
-               </div> 
-                     
+               </div>
+
                   </header>
 
             <div class="entry-content-media">
                <div class="post-thumb" style="max-width: 500px;margin: auto;">
                   <img src="<?php echo $path;?>images/kunsu/<?php echo basename(__FILE__, '.php') ?>.jpg">
-               </div> 
-            </div> 		
+               </div>
+            </div>
 
             <div class="experiences">
                <!-- <p class="lead"> -->
@@ -92,8 +92,8 @@ Lead a team of elite agents into a post-pandemic Washington, DC, to restore orde
                <!-- <p>Lorem ipsum Nisi enim est proident est magna occaecat dolore proident eu ex sunt consectetur consectetur dolore enim nisi exercitation adipisicing magna culpa commodo deserunt ut do Ut occaecat. Lorem ipsum Veniam consequat quis aliquip dolore minim ex labore dolor Excepteur Duis velit in officia Excepteur officia officia officia cillum ut elit in fugiat incididunt ea ad Ut ut ea ea dolor ex dolor eu magna voluptate irure consectetur.</p> -->
             </div>
 
-            			 
-         </div> <!-- /entry -->	      
+
+         </div> <!-- /entry -->
 
       </div> <!-- /portfolio-content -->
       <?php
