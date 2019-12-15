@@ -15,23 +15,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 function get_user_list($db_connection, $name) {
 
-    // Processing SQL
-    $sql = "SELECT username, email, homephone FROM users";
-    $result = mysqli_query($db_connection, $sql);
-    $result = mysqli_fetch_array($result);
-    $result = json_encode($result, true);
-    $JSONfile = fopen("users.json", "w");
-    fwrite($JSONfile, $result);
-    fclose($JSONfile);
-
-    if ($name == "Kun") {
-        $url = "http://kunsu.us/users.json";
-    } else if ($name == "Taylor") {
-        $url = "http://www.foreveryoungbean.com/users.json";
-    } else if ($name == "Ru") {
-        $url = "http://ru-zhang.com/users.json";
-    }
-
+    $url = "http://kunsu.us/MarketPlace/getUser.php";
     $cURL = curl_init();
     
     curl_setopt($cURL, CURLOPT_URL, $url);
@@ -61,7 +45,7 @@ function get_user_list($db_connection, $name) {
     <div class="container user">
          <div class="row">
             
-            <div class="col-6 col-md-4">
+            <div class="col col-md">
                 <p>Kun's Company</p>
                 <table class="table">
                     <thead>
@@ -88,7 +72,7 @@ function get_user_list($db_connection, $name) {
                 </table>
             </div>
             
-            <div class="col-6 col-md-4">
+            <!-- <div class="col-6 col-md-4">
                 <p>Taylor's Company</p>
                 <table class="table">
                     <thead>
@@ -142,7 +126,7 @@ function get_user_list($db_connection, $name) {
                         ?>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
         </div>
     </div>
 
